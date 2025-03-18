@@ -4,44 +4,44 @@ description: "This profile ranks releases based on the release team and if they 
   \ + multi audio gives almost every time VO audio + VFF audio.\n\nFrench teams tier\
   \ list are based on TRaSH Guides custom formats.\n\nThe worst (but still acceptable)\
   \ french team + multi audio will get higher rank than the best french team without\
-  \ audio.\n\nIf you do not want multi audio to impact that much the score, you can\
-  \ lower it lower than 100 points. This will still make multi audio beeing picked\
-  \ if 2 releases have the same team tier only, but not if a better team tier is available.\
-  \ \n\nThis profile does not use HDR, IMAX, Dolby Vision and other specifications\
-  \ like these. It only uses teams ranks, since top tier teams deliver good enough\
-  \ quality"
+  \ multi audio.\n\nIf you do not want multi audio to impact that much the score,\
+  \ you can lower it lower than 100 points. This will still make multi audio beeing\
+  \ picked if 2 releases have the same team tier only, but not if a better team tier\
+  \ is available. \n\nThis profile does not use HDR, IMAX, Dolby Vision and other\
+  \ specifications like these. It only uses teams ranks, since top tier teams deliver\
+  \ good enough quality"
 tags: []
 upgradesAllowed: true
 minCustomFormatScore: 0
 upgradeUntilScore: 999999
 minScoreIncrement: 1
 custom_formats:
-- name: FR Remux Tier 01
+- name: RADARR - FR Remux Tier 01
   score: 3000
-- name: FR Remux Tier 02
+- name: RADARR - FR Remux Tier 02
   score: 2900
-- name: FR UHD Bluray Tier 01
+- name: RADARR - FR UHD Bluray Tier 01
   score: 2800
-- name: FR UHD Bluray Tier 02
+- name: RADARR - FR UHD Bluray Tier 02
   score: 2700
-- name: FR HD Bluray Tier 01
+- name: RADARR - FR HD Bluray Tier 01
   score: 2600
-- name: FR HD Bluray Tier 02
+- name: RADARR - FR HD Bluray Tier 02
   score: 2500
-- name: FR WEB Tier 01
+- name: RADARR - FR WEB Tier 01
   score: 2400
-- name: FR WEB Tier 02
+- name: RADARR - FR WEB Tier 02
   score: 2300
-- name: FR HD Light Tier
+- name: RADARR - FR HD Light Tier
   score: 2200
-- name: FR Scene Teams
+- name: RADARR - FR Scene Teams
   score: 2100
 - name: MULTi Audio
   score: 950
 - name: VOSTFR
   score: 50
 - name: Bad x265 (HD)
-  score: -570
+  score: -40
 - name: SDR
   score: -2000
 - name: FR LQ
