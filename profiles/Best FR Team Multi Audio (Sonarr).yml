@@ -40,6 +40,8 @@ custom_formats:
   score: 550
 - name: VOSTFR
   score: 50
+- name: VOSTEN
+  score: 5
 - name: Bad x265 (HD)
   score: -40
 - name: SDR

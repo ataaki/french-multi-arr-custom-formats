@@ -1,0 +1,11 @@
+name: VOSTEN
+description: "Teams that usually provides english subs. \nCould be usefull for asian\
+  \ tv-shows that lacks of french subs"
+tags: []
+conditions:
+- name: VOSTEN
+  type: release_group
+  required: true
+  negate: false
+  pattern: VOSTEN Teams
+tests: []
