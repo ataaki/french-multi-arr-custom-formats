@@ -1,0 +1,6 @@
+name: RADARR - FR UHD Bluray Tier 01 Teams
+pattern: ^(FLOP|FRATERNiTY|FoX|Psaro)$
+description: ''
+tags:
+- radarr
+tests: []

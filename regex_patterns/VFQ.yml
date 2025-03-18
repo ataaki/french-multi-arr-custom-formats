@@ -1,5 +1,5 @@
-name: VOSTFR
-pattern: \b(VOSTFR|SUBFRENCH)\b
+name: VFQ
+pattern: \b(VQ|VFQ)\b
 description: ''
 tags:
 - radarr

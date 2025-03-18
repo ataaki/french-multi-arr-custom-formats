@@ -1,0 +1,26 @@
+name: SONARR - FR HD Bluray Tier 01
+description: ''
+tags:
+- sonarr
+conditions:
+- name: Bluray
+  negate: false
+  required: true
+  source: bluray
+  type: source
+- name: Not Remux
+  negate: true
+  qualityModifier: remux
+  required: true
+  type: quality_modifier
+- name: Not 2160p
+  negate: true
+  required: true
+  resolution: 2160p
+  type: resolution
+- name: FR HD Bluray Tier 01 Teams
+  negate: false
+  pattern: SONARR - FR HD Bluray Tier 01 Teams
+  required: true
+  type: release_group
+tests: []

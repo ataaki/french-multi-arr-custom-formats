@@ -1,0 +1,17 @@
+name: SDR
+description: ''
+tags:
+- radarr
+- sonarr
+conditions:
+- name: SDR
+  negate: false
+  pattern: SDR
+  required: true
+  type: release_title
+- name: 2160p
+  negate: false
+  required: true
+  resolution: 2160p
+  type: resolution
+tests: []

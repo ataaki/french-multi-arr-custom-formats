@@ -1,0 +1,7 @@
+name: SONARR - FR Anime Tier 01 Teams
+pattern: ^(Darki|Delivroozzi|Fuceo|Good[ .-]?(Job|Rip|Sub)!?[ .-]?Alexis|Punisher694|SR-71|T3KASHi|TANOSHii|Tsundere[
+  .-]?Raws)$
+description: ''
+tags:
+- sonarr
+tests: []

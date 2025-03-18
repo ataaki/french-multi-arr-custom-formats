@@ -1,5 +1,5 @@
-name: VOSTFR
-pattern: \b(VOSTFR|SUBFRENCH)\b
+name: SDR
+pattern: \bSDR\b
 description: ''
 tags:
 - radarr

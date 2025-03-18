@@ -1,0 +1,16 @@
+name: RADARR - FR Remux Tier 02
+description: ''
+tags:
+- radarr
+conditions:
+- name: Remux
+  negate: false
+  qualityModifier: remux
+  required: true
+  type: quality_modifier
+- name: FR Remux Tier 02 Teams
+  negate: false
+  pattern: RADARR - FR Remux Tier 02 Teams
+  required: true
+  type: release_group
+tests: []

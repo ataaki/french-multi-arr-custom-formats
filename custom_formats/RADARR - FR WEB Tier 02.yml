@@ -1,6 +1,7 @@
-name: FR WEB Tier 02
+name: RADARR - FR WEB Tier 02
 description: ''
-tags: []
+tags:
+- radarr
 conditions:
 - name: WEB-DL Source
   negate: false
@@ -14,7 +15,7 @@ conditions:
   type: source
 - name: FR WEB Tier 02 Teams
   negate: false
-  pattern: FR WEB Tier 02 Teams
+  pattern: RADARR - FR WEB Tier 02 Teams
   required: true
   type: release_group
 tests: []

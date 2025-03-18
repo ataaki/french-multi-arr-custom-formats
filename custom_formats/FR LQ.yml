@@ -1,6 +1,7 @@
 name: FR LQ
 description: French Low Quality Teams
-tags: []
+tags:
+- radarr
 conditions:
 - name: FR LQ Teams
   negate: false

@@ -1,0 +1,6 @@
+name: SONARR - FR WEB Tier 03 Teams
+pattern: ^(ARK01|BraD|dRuIdE|FTMVHD|LAZARUS|MYSTERiON|Scaph|WQM)$
+description: ''
+tags:
+- sonarr
+tests: []

@@ -1,0 +1,21 @@
+name: SONARR - FR WEB Tier 02
+description: ''
+tags:
+- sonarr
+conditions:
+- name: WEB-DL
+  negate: false
+  required: false
+  source: web_dl
+  type: source
+- name: WEBRip
+  negate: false
+  required: false
+  source: webrip
+  type: source
+- name: FR WEB Tier 01 Teams
+  negate: false
+  pattern: SONARR - FR WEB Tier 02 Teams
+  required: true
+  type: release_group
+tests: []

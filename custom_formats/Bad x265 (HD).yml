@@ -1,20 +1,22 @@
 name: Bad x265 (HD)
 description: ''
-tags: []
+tags:
+- radarr
+- sonarr
 conditions:
 - name: x265
-  type: release_title
-  required: true
   negate: false
   pattern: x265
+  required: true
+  type: release_title
 - name: Not 2160p
-  type: resolution
-  required: true
   negate: true
+  required: true
   resolution: 2160p
+  type: resolution
 - name: Not FR Light HD Teams
-  type: release_group
-  required: true
   negate: true
-  pattern: FR HD Light Teams
+  pattern: x265
+  required: true
+  type: release_group
 tests: []

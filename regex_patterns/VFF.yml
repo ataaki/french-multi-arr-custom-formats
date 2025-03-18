@@ -1,0 +1,7 @@
+name: VFF
+pattern: \b(VFF|VFI|VOF|VF2|TRUEFRENCH)\b
+description: ''
+tags:
+- radarr
+- sonarr
+tests: []

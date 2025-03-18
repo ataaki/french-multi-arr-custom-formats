@@ -1,0 +1,28 @@
+name: SONARR - FR Remux Tier 01
+description: ''
+tags:
+- sonarr
+conditions:
+- name: Remux
+  negate: false
+  qualityModifier: remux
+  required: true
+  type: quality_modifier
+- name: FR Remux Tier 01 Teams
+  negate: false
+  pattern: SONARR - FR Remux Tier 01 Teams
+  required: true
+  type: release_group
+tests:
+- conditionResults:
+  - matches: false
+    name: FR Remux Tier 01 Teams
+    negate: false
+    pattern: '[SONARR] FR Remux Tier 01 Teams'
+    required: true
+    type: release_group
+  expected: true
+  id: 1
+  input: Le Bureau Des Legendes Remux-ONLY
+  lastRun: '2025-03-18T20:09:59.026134'
+  passes: false

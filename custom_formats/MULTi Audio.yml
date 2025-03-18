@@ -1,6 +1,8 @@
 name: MULTi Audio
 description: ''
-tags: []
+tags:
+- radarr
+- sonarr
 conditions:
 - name: MULTi Audio
   negate: false

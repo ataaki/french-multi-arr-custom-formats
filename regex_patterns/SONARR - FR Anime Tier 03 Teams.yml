@@ -1,0 +1,7 @@
+name: SONARR - FR Anime Tier 03 Teams
+pattern: ^(BLV|D3T3R10R1TY|Galactic|HANAMi|kazui(zui)?|KHAYA|KushEnthusiast|matheousse|Monkey[
+  .-]?D[ .-]?Lulu|NeoSG|RONiN|TheFantastics|TTN)$
+description: ''
+tags:
+- sonarr
+tests: []

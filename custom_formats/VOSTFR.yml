@@ -1,6 +1,8 @@
 name: VOSTFR
 description: ''
-tags: []
+tags:
+- radarr
+- sonarr
 conditions:
 - name: VOSTFR
   negate: false

@@ -1,5 +1,7 @@
 name: MULTi Audio
 pattern: \b(MULTi(?![ .-]subs?))\b
 description: ''
-tags: []
+tags:
+- radarr
+- sonarr
 tests: []

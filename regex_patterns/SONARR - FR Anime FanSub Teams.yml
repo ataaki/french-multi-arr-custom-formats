@@ -1,0 +1,8 @@
+name: SONARR - FR Anime FanSub Teams
+pattern: ^(Anime[ .-]?Heart|Kaerizaki[ .-]?Fansub|Natsumi[ .-]?no[ .-]?Sekai|NekoYu\\'?|Onii[
+  .-]?ChanSub|Owlolf|Pikari[ .-]?Teshima|Seimeisen|(Team[ .-])?Arcedo|Yarashii|Yangire[
+  .-]?Raws)$
+description: ''
+tags:
+- sonarr
+tests: []

@@ -1,10 +1,11 @@
-name: FR HD Light Tier
+name: RADARR - FR HD Light Tier
 description: French HD Light Teams
-tags: []
+tags:
+- radarr
 conditions:
-- name: HD Light Teams
+- name: FR HD Light Teams
   negate: false
-  pattern: FR HD Light Teams
+  pattern: RADARR - FR HD Light Teams
   required: true
   type: release_group
 tests:

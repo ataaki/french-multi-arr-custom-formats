@@ -1,0 +1,11 @@
+name: SONARR - FR Anime FanSub
+description: ''
+tags:
+- sonarr
+conditions:
+- name: ' FR Anime FanSub Teams'
+  negate: false
+  pattern: SONARR - FR Anime FanSub Teams
+  required: true
+  type: release_group
+tests: []

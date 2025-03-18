@@ -1,0 +1,11 @@
+name: RADARR - FR Scene Teams
+description: ''
+tags:
+- radarr
+conditions:
+- name: FR Scene Teams
+  negate: false
+  pattern: RADARR - FR Scene Teams
+  required: true
+  type: release_group
+tests: []

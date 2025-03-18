@@ -1,6 +1,7 @@
-name: FR HD Bluray Tier 02
+name: RADARR - FR HD Bluray Tier 01
 description: ''
-tags: []
+tags:
+- radarr
 conditions:
 - name: Bluray Source
   negate: false
@@ -17,9 +18,9 @@ conditions:
   required: true
   resolution: 2160p
   type: resolution
-- name: FR HD Bluray Tier 02 Teams
+- name: FR HD Bluray Tier 01 Teams
   negate: false
-  pattern: FR HD Bluray Tier 02 Teams
+  pattern: RADARR - FR HD Bluray Tier 01 Teams
   required: true
   type: release_group
 tests: []

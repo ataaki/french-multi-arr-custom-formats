@@ -1,0 +1,11 @@
+name: SONARR - FR Anime Tier 01
+description: ''
+tags:
+- sonarr
+conditions:
+- name: FR Anime Tier 01 Teams
+  negate: false
+  pattern: SONARR - FR Anime Tier 01 Teams
+  required: true
+  type: release_group
+tests: []

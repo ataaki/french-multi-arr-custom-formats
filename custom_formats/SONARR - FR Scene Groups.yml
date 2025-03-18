@@ -1,0 +1,11 @@
+name: SONARR - FR Scene Groups
+description: ''
+tags:
+- sonarr
+conditions:
+- name: FR Scene Groups Teams
+  negate: false
+  pattern: SONARR - FR Scene Groups Teams
+  required: true
+  type: release_group
+tests: []

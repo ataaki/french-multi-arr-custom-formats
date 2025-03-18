@@ -1,0 +1,15 @@
+name: VFQ (No VFF)
+description: ''
+tags: []
+conditions:
+- name: VFQ
+  negate: false
+  pattern: VFQ
+  required: true
+  type: release_title
+- name: VFF
+  type: release_title
+  required: true
+  negate: true
+  pattern: VFF
+tests: []
