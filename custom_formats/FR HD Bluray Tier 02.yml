@@ -1,0 +1,25 @@
+name: FR HD Bluray Tier 02
+description: ''
+tags: []
+conditions:
+- name: Bluray Source
+  negate: false
+  required: true
+  source: bluray
+  type: source
+- name: Not Remux
+  negate: true
+  qualityModifier: remux
+  required: true
+  type: quality_modifier
+- name: Not 2160p
+  negate: true
+  required: true
+  resolution: 2160p
+  type: resolution
+- name: FR HD Bluray Tier 02 Teams
+  negate: false
+  pattern: FR HD Bluray Tier 02 Teams
+  required: true
+  type: release_group
+tests: []

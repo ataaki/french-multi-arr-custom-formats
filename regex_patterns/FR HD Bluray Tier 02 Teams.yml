@@ -1,0 +1,5 @@
+name: FR HD Bluray Tier 02 Teams
+pattern: \b(FUJiSAN|HANAMi|HDForever|HeavyWeight|MARBLECAKE|MYSTERiON|NoNE|ONLY|ONLYMOViE|TkHD|UTT)\b
+description: ''
+tags: []
+tests: []

@@ -1,0 +1,10 @@
+name: MULTi Audio
+description: ''
+tags: []
+conditions:
+- name: MULTi Audio
+  negate: false
+  pattern: MULTi Audio
+  required: true
+  type: release_title
+tests: []

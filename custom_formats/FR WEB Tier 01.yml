@@ -1,0 +1,20 @@
+name: FR WEB Tier 01
+description: ''
+tags: []
+conditions:
+- name: WEBDL Source
+  negate: false
+  required: false
+  source: web_dl
+  type: source
+- name: WEBRIP Source
+  negate: false
+  required: false
+  source: webrip
+  type: source
+- name: FR WEB Tier 01 Teams
+  negate: false
+  pattern: FR WEB Tier 01 Teams
+  required: true
+  type: release_group
+tests: []

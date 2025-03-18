@@ -1,0 +1,10 @@
+name: VOSTFR
+description: ''
+tags: []
+conditions:
+- name: VOSTFR
+  negate: false
+  pattern: VOSTFR
+  required: true
+  type: release_title
+tests: []

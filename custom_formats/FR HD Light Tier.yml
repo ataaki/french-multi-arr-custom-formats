@@ -1,0 +1,156 @@
+name: FR HD Light Tier
+description: French HD Light Teams
+tags: []
+conditions:
+- name: HD Light Teams
+  negate: false
+  pattern: FR HD Light Teams
+  required: true
+  type: release_group
+tests:
+- conditionResults:
+  - matches: true
+    name: HD Light Teams
+    negate: false
+    pattern: FR HD Light Teams
+    required: true
+    type: release_group
+  expected: true
+  id: 1
+  input: "Dune 2021 MULTi VF2 1080p BluRay x264-PopHD (Dune : Premi\xE8re partie)"
+  lastRun: '2025-03-18T12:08:06.209441'
+  passes: true
+- conditionResults:
+  - matches: true
+    name: HD Light Teams
+    negate: false
+    pattern: FR HD Light Teams
+    required: true
+    type: release_group
+  expected: true
+  id: 2
+  input: BlacKkKlansman (2018) MULTi VF2 1080p Bluray x264-AW
+  lastRun: '2025-03-18T12:08:06.209441'
+  passes: true
+- conditionResults:
+  - matches: true
+    name: HD Light Teams
+    negate: false
+    pattern: FR HD Light Teams
+    required: true
+    type: release_group
+  expected: true
+  id: 3
+  input: "\tFinal Destination 4 2009 MULTi VF2 AC3 1080p Bluray HDLight x264.GHT"
+  lastRun: '2025-03-18T12:08:06.209441'
+  passes: true
+- conditionResults:
+  - matches: true
+    name: HD Light Teams
+    negate: false
+    pattern: FR HD Light Teams
+    required: true
+    type: release_group
+  expected: true
+  id: 4
+  input: Altered.States.1980.MULTI.VFi.1080p.BluRay-PATOMIEL
+  lastRun: '2025-03-18T12:08:06.209441'
+  passes: true
+- conditionResults:
+  - matches: true
+    name: HD Light Teams
+    negate: false
+    pattern: FR HD Light Teams
+    required: true
+    type: release_group
+  expected: true
+  id: 5
+  input: Judas and the Black Messiah (2021) MULTi VFI 2160p 10bit 4KLight DV HDR BluRay
+    TrueHD 7.1 Atmos x265-QTZ
+  lastRun: '2025-03-18T12:08:06.209441'
+  passes: true
+- conditionResults:
+  - matches: true
+    name: HD Light Teams
+    negate: false
+    pattern: FR HD Light Teams
+    required: true
+    type: release_group
+  expected: true
+  id: 6
+  input: Blade Runner 2049 (2017) MULTI 1080p mHD x264 AC3-SANTACRUZ
+  lastRun: '2025-03-18T12:08:06.209441'
+  passes: true
+- conditionResults:
+  - matches: true
+    name: HD Light Teams
+    negate: false
+    pattern: FR HD Light Teams
+    required: true
+    type: release_group
+  expected: true
+  id: 7
+  input: "\tMary.Poppins.Returns.2018.MULTi.TRUEFRENCH.1080p.BluRay.REMUX.AVC.EAC3.DTS.HDMA-XANTAR"
+  lastRun: '2025-03-18T12:08:06.209441'
+  passes: true
+- conditionResults:
+  - matches: true
+    name: HD Light Teams
+    negate: false
+    pattern: FR HD Light Teams
+    required: true
+    type: release_group
+  expected: true
+  id: 8
+  input: "\tRobin.Hood.Prince.Of.Thieves.1991.EXTENDED.MULTi.TRUEFRENCH.1080p.BluRay.x264-RiFiFi\
+    \ (Robin des Bois Prince des Voleurs)"
+  lastRun: '2025-03-18T12:08:06.209441'
+  passes: true
+- conditionResults:
+  - matches: true
+    name: HD Light Teams
+    negate: false
+    pattern: FR HD Light Teams
+    required: true
+    type: release_group
+  expected: true
+  id: 9
+  input: The Matrix 4 Resurrections 2021 MULTi VFF 1080p Bluray mHD x264 AC3-PiXEL
+  lastRun: '2025-03-18T12:08:06.209441'
+  passes: true
+- conditionResults:
+  - matches: true
+    name: HD Light Teams
+    negate: false
+    pattern: FR HD Light Teams
+    required: true
+    type: release_group
+  expected: true
+  id: 10
+  input: "\tPearl Harbor 2001 MULTi VFF 1080p BluRay E-AC3 x265-Winks"
+  lastRun: '2025-03-18T12:08:06.209441'
+  passes: true
+- conditionResults:
+  - matches: true
+    name: HD Light Teams
+    negate: false
+    pattern: FR HD Light Teams
+    required: true
+    type: release_group
+  expected: true
+  id: 11
+  input: Ali Baba Et Les Quarante Voleurs 1954 FRENCH 1080p Bluray HDLight x264 AAC-mHDgz
+  lastRun: '2025-03-18T12:08:06.209441'
+  passes: true
+- conditionResults:
+  - matches: false
+    name: HD Light Teams
+    negate: false
+    pattern: FR HD Light Teams
+    required: true
+    type: release_group
+  expected: false
+  id: 12
+  input: Pixels.2015.Multi.Vff.720p.WEBrip.x264
+  lastRun: '2025-03-18T12:08:06.209441'
+  passes: true

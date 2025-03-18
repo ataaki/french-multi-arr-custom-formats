@@ -1,0 +1,5 @@
+name: VOSTFR
+pattern: \b(VOSTFR)\b
+description: ''
+tags: []
+tests: []

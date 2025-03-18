@@ -1,0 +1,5 @@
+name: FR HD Light Teams
+pattern: \b(PopHD|AW|GHT|PATOMiEL|QTZ|SANTACRUZ|Xantar|RiFiFi|PiXEL|Winks|mHDgz)\b
+description: ''
+tags: []
+tests: []

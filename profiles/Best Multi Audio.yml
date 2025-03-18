@@ -1,0 +1,81 @@
+name: Best Multi Audio
+description: ''
+tags: []
+upgradesAllowed: true
+minCustomFormatScore: 0
+upgradeUntilScore: 999999
+minScoreIncrement: 1
+custom_formats:
+- name: FR Remux Tier 01
+  score: 1950
+- name: FR Remux Tier 02
+  score: 1900
+- name: FR HD Bluray Tier 01
+  score: 1800
+- name: FR HD Bluray Tier 02
+  score: 1750
+- name: FR WEB Tier 01
+  score: 1700
+- name: FR WEB Tier 02
+  score: 1650
+- name: FR Scene Teams
+  score: 1500
+- name: FR HD Light Tier
+  score: 1450
+- name: MULTi Audio
+  score: 750
+- name: VOSTFR
+  score: 200
+- name: FR LQ
+  score: -10000
+qualities:
+- id: -1
+  name: 4K-HD
+  description: ''
+  qualities:
+  - id: 10
+    name: Bluray-1080p
+  - id: 3
+    name: Remux-2160p
+  - id: 4
+    name: Bluray-2160p
+  - id: 5
+    name: WEBDL-2160p
+  - id: 6
+    name: WEBRip-2160p
+  - id: 7
+    name: HDTV-2160p
+  - id: 8
+    name: Remux-1080p
+  - id: 9
+    name: WEBDL-1080p
+  - id: 11
+    name: WEBRip-1080p
+  - id: 12
+    name: HDTV-1080p
+- id: -2
+  name: SD
+  description: ''
+  qualities:
+  - id: 13
+    name: Bluray-720p
+  - id: 14
+    name: WEBDL-720p
+  - id: 15
+    name: WEBRip-720p
+  - id: 16
+    name: HDTV-720p
+  - id: 18
+    name: Bluray-480p
+  - id: 19
+    name: WEBDL-480p
+  - id: 20
+    name: WEBRip-480p
+  - id: 22
+    name: DVD
+  - id: 24
+    name: SDTV
+upgrade_until:
+  id: -1
+  name: 4K-HD
+language: any

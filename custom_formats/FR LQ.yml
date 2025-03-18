@@ -1,0 +1,34 @@
+name: FR LQ
+description: French Low Quality Teams
+tags: []
+conditions:
+- name: FR LQ Teams
+  negate: false
+  pattern: FR LQ Teams
+  required: true
+  type: release_group
+tests:
+- conditionResults:
+  - matches: false
+    name: FR LQ Teams
+    negate: false
+    pattern: FR LQ Teams
+    required: true
+    type: release_group
+  expected: false
+  id: 1
+  input: Pixels.2015.3D.Full-SBS.MULTI.1080p.10bit.Bluray.AC3.DTSHD-MA.x265-NS243
+  lastRun: '2025-03-18T12:14:15.669423'
+  passes: true
+- conditionResults:
+  - matches: true
+    name: FR LQ Teams
+    negate: false
+    pattern: FR LQ Teams
+    required: true
+    type: release_group
+  expected: true
+  id: 2
+  input: Pokers.2014.TRUEFRENCH.BDRip.XviD-AlioZ.avi
+  lastRun: '2025-03-18T12:14:15.669423'
+  passes: true

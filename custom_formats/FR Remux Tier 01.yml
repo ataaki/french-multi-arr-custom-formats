@@ -1,0 +1,15 @@
+name: FR Remux Tier 01
+description: ''
+tags: []
+conditions:
+- name: Remux
+  type: quality_modifier
+  required: true
+  negate: false
+  qualityModifier: remux
+- name: FR Remux Tier 01 Teams
+  type: release_group
+  required: true
+  negate: false
+  pattern: FR Remux Tier 01 Teams
+tests: []
