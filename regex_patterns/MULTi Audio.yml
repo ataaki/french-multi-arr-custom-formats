@@ -1,7 +1,100 @@
 name: MULTi Audio
-pattern: \b(MULTi(?![ .-]subs?))\b
+pattern: \b(?:MULTi(?![ .-]subs?)|(?=.*\b(?:VFF|VFI|VF2|TRUE\s?FRENCH)\b)(?=.*\bVO\b))\b
 description: ''
 tags:
 - radarr
 - sonarr
-tests: []
+tests:
+- expected: true
+  id: 1
+  input: Sonic 2 le Film 2022 VFF VFQ VO DOLBY TRUEHD ATMOS 2160P UHD BLURAY REMUX
+    HEVC HDR10 DOLBY VISION-Obi (Sonic The Hedgehog 2)
+  lastRun: '2025-03-28T10:08:26.081779'
+  matchSpan:
+    end: 0
+    start: 0
+  matchedContent: ''
+  matchedGroups: []
+  passes: true
+- expected: true
+  id: 2
+  input: Sonic.The.Hedgehog.2. 2022 .MULTI DOLBY TRUEHD ATMOS 2160P UHD BLURAY REMUX
+    HEVC HDR10 DOLBY VISION-Obi (Sonic The Hedgehog 2
+  lastRun: '2025-03-28T10:08:26.081779'
+  matchSpan:
+    end: 33
+    start: 28
+  matchedContent: MULTI
+  matchedGroups: []
+  passes: true
+- expected: false
+  id: 3
+  input: Sonic 2 le Film 2022 VFF DOLBY TRUEHD ATMOS 2160P UHD BLURAY REMUX HEVC HDR10
+    DOLBY VISION-Obi (Sonic The Hedgehog 2)
+  lastRun: '2025-03-28T10:08:26.081779'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: true
+- expected: false
+  id: 4
+  input: Sonic 2 le Film 2022 VFQ VO DOLBY TRUEHD ATMOS 2160P UHD BLURAY REMUX HEVC
+    HDR10 DOLBY VISION-Obi (Sonic The Hedgehog 2)
+  lastRun: '2025-03-28T10:08:26.081779'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: true
+- expected: true
+  id: 5
+  input: Sonic 2 le Film 2022 VFI VFQ VO DOLBY TRUEHD ATMOS 2160P UHD BLURAY REMUX
+    HEVC HDR10 DOLBY VISION-Obi (Sonic The Hedgehog 2)
+  lastRun: '2025-03-28T10:08:26.081779'
+  matchSpan:
+    end: 0
+    start: 0
+  matchedContent: ''
+  matchedGroups: []
+  passes: true
+- expected: true
+  id: 6
+  input: Sonic 2 le Film 2022 VF2 VFQ VO DOLBY TRUEHD ATMOS 2160P UHD BLURAY REMUX
+    HEVC HDR10 DOLBY VISION-Obi (Sonic The Hedgehog 2)
+  lastRun: '2025-03-28T10:08:26.081779'
+  matchSpan:
+    end: 0
+    start: 0
+  matchedContent: ''
+  matchedGroups: []
+  passes: true
+- expected: true
+  id: 7
+  input: Sonic 2 le Film 2022 TRUEFRENCH VFQ VO DOLBY TRUEHD ATMOS 2160P UHD BLURAY
+    REMUX HEVC HDR10 DOLBY VISION-Obi (Sonic The Hedgehog 2)
+  lastRun: '2025-03-28T10:08:26.081779'
+  matchSpan:
+    end: 0
+    start: 0
+  matchedContent: ''
+  matchedGroups: []
+  passes: true
+- expected: true
+  id: 8
+  input: Sonic 2 le Film 2022 TRUE FRENCH VFQ VO DOLBY TRUEHD ATMOS 2160P UHD BLURAY
+    REMUX HEVC HDR10 DOLBY VISION-Obi (Sonic The Hedgehog 2)
+  lastRun: '2025-03-28T10:08:26.081779'
+  matchSpan:
+    end: 0
+    start: 0
+  matchedContent: ''
+  matchedGroups: []
+  passes: true
+- expected: false
+  id: 9
+  input: Sonic 2 le Film 2022 TRUE VFQ FRENCH VO DOLBY TRUEHD ATMOS 2160P UHD BLURAY
+    REMUX HEVC HDR10 DOLBY VISION-Obi (Sonic The Hedgehog 2)
+  lastRun: '2025-03-28T10:08:26.081779'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: true
