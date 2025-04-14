@@ -39,26 +39,31 @@ I still went for grouping SD appart to avoid edge cases that rarely happened.
 |WEBRip-1080p    |DVD             |
 |HDTV-1080p      |SDTV            |
 
+#### Warning ⚠️
+
+You may need to manually add `Bluray 1080p Remuxes` and `Bluray 2160p Remuxes` to the `4K-HD` group in your Sonarr Quality Profile. (It's a bug in profilarr)
 
 
 ### Custom Formats Scores:
+
 
  **RADARR**                 | **Valeur** | | **SONARR**                | **Valeur** |
  |----------------------------|------------|-|----------------------------|------------|
  | RADARR - FR Remux Tier 01  | 3000       | | SONARR - FR Remux Tier 01  | 2600       |
  | RADARR - FR Remux Tier 02  | 2900       | | SONARR - FR HD Bluray Tier 01 | 2500    |
- | RADARR - FR UHD Bluray Tier 01 | 2800    | | SONARR - FR Anime Tier 01  | 2400       |
- | RADARR - FR UHD Bluray Tier 02 | 2700    | | SONARR - FR WEB Tier 01    | 2400       |
+ | RADARR - FR UHD Bluray Tier 01 | 2800   | | SONARR - FR Anime Tier 01  | 2400       |
+ | RADARR - FR UHD Bluray Tier 02 | 2700   | | SONARR - FR WEB Tier 01    | 2400       |
  | RADARR - FR HD Bluray Tier 01 | 2600    | | SONARR - FR Anime Tier 02  | 2300       |
  | RADARR - FR HD Bluray Tier 02 | 2500    | | SONARR - FR WEB Tier 02    | 2300       |
  | RADARR - FR WEB Tier 01    | 2400       | | SONARR - FR Anime Tier 03  | 2200       |
  | RADARR - FR WEB Tier 02    | 2300       | | SONARR - FR WEB Tier 03    | 2200       |
- | RADARR - FR HD Light Tier  | 2200       | | SONARR - FR Anime FanSub   | 2100       |
- | RADARR - FR Scene Teams    | 2100       | | SONARR - FR Scene Groups   | 2100       |
- | MULTi Audio                | 950        | | MULTi Audio                | 550        |
- | VOSTFR                     | 50         | | VOSTFR                     | 50         |
- | VOSTEN                     | 5          | | VOSTEN                     | 5          |
- | Bad x265 (HD)              | -40        | | Bad x265 (HD)              | -40        |
- | SDR                        | -2000      | | SDR                        | -2000      |
- | FR LQ                      | -10000     | | FR LQ                      | -10000     |
- | VFQ (No VFF)               | -10000     | | VFQ (No VFF)               | -10000     |
+ | FR HD Light Tier           | 2200       | | FR HD Light Tier           | 2100       |
+ | RADARR - FR Scene Teams    | 2100       | | SONARR - FR Anime FanSub   | 2000       |
+ | MULTi Audio                | 950        | | SONARR - FR Scene Groups   | 2000       |
+ | VOSTFR                     | 50         | | MULTi Audio                | 550        |
+ | VOSTEN                     | 5          | | VOSTFR                     | 50         |
+ | Bad x265 (HD)              | -40        | | VOSTEN                     | 5          |
+ | SDR                        | -2000      | | Bad x265 (HD)              | -40        |
+ | FR LQ                      | -10000     | | SDR                        | -2000      |
+ | VFQ (No VFF)               | -10000     | | FR LQ                      | -10000     |
+ |                            |            | | VFQ (No VFF)               | -10000     |
