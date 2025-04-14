@@ -5,7 +5,7 @@ tags:
 conditions:
 - name: FR HD Light Teams
   negate: false
-  pattern: RADARR - FR HD Light Teams
+  pattern: FR HD Light Teams
   required: true
   type: release_group
 tests:

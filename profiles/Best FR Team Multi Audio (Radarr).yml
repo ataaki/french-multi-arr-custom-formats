@@ -32,7 +32,7 @@ custom_formats:
   score: 2400
 - name: RADARR - FR WEB Tier 02
   score: 2300
-- name: RADARR - FR HD Light Tier
+- name: FR HD Light Tier
   score: 2200
 - name: RADARR - FR Scene Teams
   score: 2100

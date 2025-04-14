@@ -4,8 +4,8 @@ description: "Teams that usually provides english subs. \nCould be usefull for a
 tags: []
 conditions:
 - name: VOSTEN
-  type: release_group
-  required: true
   negate: false
   pattern: VOSTEN Teams
+  required: true
+  type: release_group
 tests: []

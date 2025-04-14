@@ -32,10 +32,12 @@ custom_formats:
   score: 2200
 - name: SONARR - FR WEB Tier 03
   score: 2200
+- name: FR HD Light Tier
+  score: 2100
 - name: SONARR - FR Anime FanSub
-  score: 2100
+  score: 2000
 - name: SONARR - FR Scene Groups
-  score: 2100
+  score: 2000
 - name: MULTi Audio
   score: 550
 - name: VOSTFR
