@@ -29,7 +29,7 @@ For example we would prefer an FR Scene Teams with MUTLi audio release and WEBRi
 
 I still went for grouping SD appart to avoid edge cases that rarely happened.
 
-|**4K-HD**       |**4K-HD No Remux-**       |**HD**          |**HD No Remux** | **SD**         |
+|**4K-HD**       |**4K-HD No Remux**       |**HD**          |**HD No Remux** | **SD**         |
 |----------------|--------------------------|----------------|----------------|----------------|
 |Remux-2160p     |                          |                |                |Bluray-720p     |
 |Bluray-2160p    |Bluray-2160p              |                |                |WEBDL-720p      |
