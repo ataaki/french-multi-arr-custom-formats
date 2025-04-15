@@ -50,7 +50,7 @@ You may need to manually add `Bluray 1080p Remuxes` and `Bluray 2160p Remuxes` t
 ### Custom Formats Scores:
 
 
- **RADARR**                 | **Valeur** | | **SONARR**                | **Valeur** |
+ **RADARR**                 | **Score** | | **SONARR**                | **Score** |
  |----------------------------|------------|-|----------------------------|------------|
  | RADARR - FR Remux Tier 01  | 3000       | | SONARR - FR Remux Tier 01  | 2600       |
  | RADARR - FR Remux Tier 02  | 2900       | | SONARR - FR HD Bluray Tier 01 | 2500    |
