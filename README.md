@@ -16,8 +16,11 @@ These custom formats works well with french trackers, you can have some false po
 
 ### Profile Qualities
 
-Qualities are divided in two groups:
+Qualities are divided in groups:
   - 4K-HD
+  - 4K-HD No Remux
+  - HD
+  - HD No Remux
   - SD
 
 Grouping high qualities together allows us to use custom formats score only for the upgrades.
@@ -26,22 +29,22 @@ For example we would prefer an FR Scene Teams with MUTLi audio release and WEBRi
 
 I still went for grouping SD appart to avoid edge cases that rarely happened.
 
-**4H-HD**        | **SD**         |
-|----------------|----------------|
-|Remux-2160p     |Bluray-720p     |
-|Bluray-2160p    |WEBDL-720p      |
-|WEBDL-2160p     |WEBRip-720p     |
-|WEBRip-2160p    |HDTV-720p       |
-|HDTV-2160p      |Bluray-576p     |
-|Remux-1080p     |Bluray-480p     |
-|Bluray-1080p    |WEBDL-480p      |
-|WEBDL-1080p     |WEBRip-480p     |
-|WEBRip-1080p    |DVD             |
-|HDTV-1080p      |SDTV            |
+|**4K-HD**       |**4K-HD No Remux-**       |**HD**          |**HD No Remux** | **SD**         |
+|----------------|--------------------------|----------------|----------------|----------------|
+|Remux-2160p     |                          |                |                |Bluray-720p     |
+|Bluray-2160p    |Bluray-2160p              |                |                |WEBDL-720p      |
+|WEBDL-2160p     |WEBDL-2160p               |                |                |WEBRip-720p     |
+|WEBRip-2160p    |WEBRip-2160p              |                |                |HDTV-720p       |
+|HDTV-2160p      |HDTV-2160p                |                |                |Bluray-576p     |
+|Remux-1080p     |                          |Remux-1080p     |                |Bluray-480p     |
+|Bluray-1080p    |Bluray-1080p              |Bluray-1080p    |Bluray-1080p    |WEBDL-480p      |
+|WEBDL-1080p     |WEBDL-1080p               |WEBDL-1080p     |WEBDL-1080p     |WEBRip-480p     |
+|WEBRip-1080p    |WEBRip-1080p              |WEBRip-1080p    |WEBRip-1080p    |DVD             |
+|HDTV-1080p      |HDTV-1080p                |HDTV-1080p      |HDTV-1080p      |SDTV            |
 
 #### Warning ⚠️
 
-You may need to manually add `Bluray 1080p Remuxes` and `Bluray 2160p Remuxes` to the `4K-HD` group in your Sonarr Quality Profile. (It's a bug in profilarr)
+You may need to manually add `Bluray 1080p Remuxes` and `Bluray 2160p Remuxes` to your group in your Sonarr Quality Profile. (It's a bug in profilarr)
 
 
 ### Custom Formats Scores:
