@@ -31,6 +31,7 @@ I still went for grouping SD appart to avoid edge cases that rarely happened.
 
 |**4K-HD**       |**4K-HD No Remux**       |**HD**          |**HD No Remux** | **SD**         |
 |----------------|--------------------------|----------------|----------------|----------------|
+|BR-DISK         |                          |                |                |                |
 |Remux-2160p     |                          |                |                |Bluray-720p     |
 |Bluray-2160p    |Bluray-2160p              |                |                |WEBDL-720p      |
 |WEBDL-2160p     |WEBDL-2160p               |                |                |WEBRip-720p     |
