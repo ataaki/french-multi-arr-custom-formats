@@ -75,6 +75,8 @@ qualities:
     name: WEBRip-1080p
   - id: 12
     name: HDTV-1080p
+  - id: 2
+    name: BR-Disk
 - id: -2
   name: SD
   description: ''
