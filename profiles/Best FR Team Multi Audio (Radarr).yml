@@ -42,6 +42,10 @@ custom_formats:
   score: 50
 - name: VOSTEN
   score: 5
+- name: VF2-VFI
+  score: 0
+- name: VFF (no VFQ)
+  score: 0
 - name: Bad x265 (HD)
   score: -40
 - name: SDR

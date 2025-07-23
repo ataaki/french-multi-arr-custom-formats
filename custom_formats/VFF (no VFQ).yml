@@ -1,0 +1,17 @@
+name: VFF (no VFQ)
+description: ''
+tags:
+- radarr
+- sonarr
+conditions:
+- name: VFQ
+  negate: true
+  pattern: VFQ
+  required: true
+  type: release_title
+- name: VFF
+  negate: false
+  pattern: VFF
+  required: true
+  type: release_title
+tests: []

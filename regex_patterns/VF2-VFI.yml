@@ -1,5 +1,5 @@
-name: VFF
-pattern: \b(VFF|VOF|TRUEFRENCH)\b
+name: VF2-VFI
+pattern: \b(VFI|VF2)\b
 description: ''
 tags:
 - radarr

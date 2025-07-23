@@ -1,0 +1,12 @@
+name: VF2-VFI
+description: ''
+tags:
+- radarr
+- sonarr
+conditions:
+- name: VF2-VFI
+  negate: false
+  pattern: VF2-VFI
+  required: true
+  type: release_title
+tests: []
