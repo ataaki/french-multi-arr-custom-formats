@@ -1,5 +1,5 @@
 name: RADARR - FR WEB Tier 01 Teams
-pattern: ^(BONBON|FCK|FW|FoX|FRATERNiTY|FrIeNdS|MOONLY|MTDK|PATOPESTO|Psaro|T3KASHi|TFA|TiNA)$
+pattern: ^(BONBON|FCK|FLOP|FW|FoX|FRATERNiTY|FrIeNdS|MOONLY|MTDK|PATOPESTO|Psaro|T3KASHi|TFA|TiNA)$
 description: ''
 tags:
 - radarr
