@@ -66,7 +66,9 @@ You may need to manually add `Bluray 1080p Remuxes` and `Bluray 2160p Remuxes` t
  | MULTi Audio                | 950        | | SONARR - FR Scene Groups   | 2000       |
  | VOSTFR                     | 50         | | MULTi Audio                | 550        |
  | VOSTEN                     | 5          | | VOSTFR                     | 50         |
- | Bad x265 (HD)              | -40        | | VOSTEN                     | 5          |
+ | VF2-VFI                    | 0          | | VOSTEN                     | 5          |
+ | VFF (No VFQ)               | 0          | | VF2-VFI                    | 0          |
+ | Bad x265 (HD)              | -40        | | VFF (No VFQ)               | 0          |
  | SDR                        | -2000      | | Bad x265 (HD)              | -40        |
  | FR LQ                      | -10000     | | SDR                        | -2000      |
  | VFQ (No VFF)               | -10000     | | FR LQ                      | -10000     |
