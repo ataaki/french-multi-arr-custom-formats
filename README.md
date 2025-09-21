@@ -1,3 +1,8 @@
+# ⚠️ 2025-09-21 Update ⚠️
+
+Profilarr has received an update that merges quality profile for radarr and sonarr in the same quality profile.
+I've renamed and re-arranged quality profiles in Profilarr to take advantage of this update, so you need to delete the old quality profile and reimport the new one.
+
 # French Multi Arr Custom Formats
 
 [Profilarr](https://github.com/Dictionarry-Hub/profilarr) database, based on **french release teams** (based on TRaSH Guides) with **MULTi Audio**.
