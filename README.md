@@ -4,7 +4,7 @@ Profilarr has received an update that merges quality profile for radarr and sona
 
 I've renamed and re-arranged quality profiles in Profilarr to take advantage of this update, so you need to delete the old quality profile and reimport the new one.
 
-Make also sure to check/uncheck everything you need in the Settings / External Apps in Profilarr tabs.
+Make also sure to check/uncheck everything you need in the Settings / External Apps tabs in Profilarr.
 
 # French Multi Arr Custom Formats
 
