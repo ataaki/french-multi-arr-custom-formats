@@ -80,7 +80,7 @@ custom_formats_sonarr:
   score: 2000
 qualities:
 - id: -1
-  name: HD No Remux
+  name: HD (1080p-No Remux)
   description: ''
   qualities:
   - id: 10
@@ -92,7 +92,7 @@ qualities:
   - id: 12
     name: HDTV-1080p
 - id: -2
-  name: SD
+  name: SD (720p - 480p)
   description: ''
   qualities:
   - id: 13
@@ -117,5 +117,5 @@ qualities:
     name: Bluray-576p
 upgrade_until:
   id: -1
-  name: HD No Remux
+  name: HD (1080p-No Remux)
 language: any

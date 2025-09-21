@@ -80,7 +80,7 @@ custom_formats_sonarr:
   score: 2000
 qualities:
 - id: -1
-  name: 4K-HD
+  name: 4K (2160p) - HD (1080p)
   description: ''
   qualities:
   - id: 10
@@ -106,7 +106,7 @@ qualities:
   - id: 2
     name: BR-Disk
 - id: -2
-  name: SD
+  name: SD (720p - 480p)
   description: ''
   qualities:
   - id: 13
@@ -131,5 +131,5 @@ qualities:
     name: Bluray-576p
 upgrade_until:
   id: -1
-  name: 4K-HD
+  name: 4K (2160p) - HD (1080p)
 language: any
