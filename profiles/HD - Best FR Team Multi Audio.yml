@@ -1,4 +1,4 @@
-name: HD ONLY NO REMUX - Best FR Team Multi Audio (Radarr)
+name: HD - Best FR Team Multi Audio
 description: "This profile ranks releases based on the release team and if they contains\
   \ multiple audio tracks.\n\nIt only contains french teams, so the combo french team\
   \ + multi audio gives almost every time VO audio + VFF audio.\n\nFrench teams tier\
@@ -16,6 +16,29 @@ minCustomFormatScore: 0
 upgradeUntilScore: 999999
 minScoreIncrement: 1
 custom_formats:
+- name: FR HD Light Tier
+  score: 2200
+- name: MULTi Audio
+  score: 950
+- name: VOSTFR
+  score: 50
+- name: VOSTEN
+  score: 5
+- name: VF2-VFI
+  score: 0
+- name: VFF (no VFQ)
+  score: 0
+- name: Bad x265 (HD)
+  score: -40
+- name: SDR
+  score: -2000
+- name: 3D
+  score: -10000
+- name: FR LQ
+  score: -10000
+- name: VFQ (No VFF)
+  score: -10000
+custom_formats_radarr:
 - name: RADARR - FR Remux Tier 01
   score: 3000
 - name: RADARR - FR Remux Tier 02
@@ -32,31 +55,38 @@ custom_formats:
   score: 2400
 - name: RADARR - FR WEB Tier 02
   score: 2300
-- name: FR HD Light Tier
-  score: 2200
 - name: RADARR - FR Scene Teams
   score: 2100
-- name: MULTi Audio
-  score: 950
-- name: VOSTFR
-  score: 50
-- name: VOSTEN
-  score: 5
-- name: Bad x265 (HD)
-  score: -40
-- name: SDR
-  score: -2000
-- name: FR LQ
-  score: -10000
-- name: VFQ (No VFF)
-  score: -10000
+custom_formats_sonarr:
+- name: SONARR - FR Remux Tier 01
+  score: 2700
+- name: SONARR - FR HD Bluray Tier 01
+  score: 2600
+- name: SONARR - FR Anime Tier 01
+  score: 2500
+- name: SONARR - FR Anime Tier 02
+  score: 2400
+- name: SONARR - FR WEB Tier 01
+  score: 2400
+- name: SONARR - FR Anime Tier 03
+  score: 2300
+- name: SONARR - FR WEB Tier 02
+  score: 2300
+- name: SONARR - FR WEB Tier 03
+  score: 2200
+- name: SONARR - FR Anime FanSub
+  score: 2000
+- name: SONARR - FR Scene Groups
+  score: 2000
 qualities:
 - id: -1
-  name: HD No Remux
+  name: HD Only
   description: ''
   qualities:
   - id: 10
     name: Bluray-1080p
+  - id: 8
+    name: Remux-1080p
   - id: 9
     name: WEBDL-1080p
   - id: 11
@@ -89,5 +119,5 @@ qualities:
     name: Bluray-576p
 upgrade_until:
   id: -1
-  name: HD
+  name: HD Only
 language: any
