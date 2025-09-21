@@ -16,32 +16,51 @@ These custom formats works well with french trackers, you can have some false po
 
 ### Profile Qualities
 
-Qualities are divided in groups:
-  - 4K-HD
-  - 4K-HD No Remux
-  - HD
-  - HD No Remux
-  - SD
+#### Profiles
 
+You can chose from 4 different profiles which includes the corresponding quality groups.
+
+|**Profile Name**                             |**Quality Groups Included**                                                |
+|---------------------------------------------|---------------------------------------------------------------------------| 
+|**4K - Best FR Team Multi Audio**            | - 4K (2160p)  </br> - HD (1080p) </br> - SD (720p to 480p)                       |
+|**4K (No Remux) - Best FR Team Multi Audio** | - 4K (2160p - No Remux)  </br> - HD (1080p - No Remux)  </br> - SD (720p to 480p) |
+|**HD - Best FR Team Multi Audio**            | - HD (1080p) </br> - SD (720p to 480p)                                    |
+|**HD (No Remux) - Best FR Team Multi Audio** | - HD (1080p - No Remux) </br> - SD (720p to 480p)                           |
+
+All 4K and HD qualities are grouped together.
 Grouping high qualities together allows us to use custom formats score only for the upgrades.
 
 For example we would prefer an FR Scene Teams with MUTLi audio release and WEBRip-1080p source rather than a VOSTFR release and Remux-2160p source.
 
 I still went for grouping SD appart to avoid edge cases that rarely happened.
 
-|**4K-HD**       |**4K-HD No Remux**       |**HD**          |**HD No Remux** | **SD**         |
-|----------------|--------------------------|----------------|----------------|----------------|
-|BR-DISK         |                          |                |                |                |
-|Remux-2160p     |                          |                |                |Bluray-720p     |
-|Bluray-2160p    |Bluray-2160p              |                |                |WEBDL-720p      |
-|WEBDL-2160p     |WEBDL-2160p               |                |                |WEBRip-720p     |
-|WEBRip-2160p    |WEBRip-2160p              |                |                |HDTV-720p       |
-|HDTV-2160p      |HDTV-2160p                |                |                |Bluray-576p     |
-|Remux-1080p     |                          |Remux-1080p     |                |Bluray-480p     |
-|Bluray-1080p    |Bluray-1080p              |Bluray-1080p    |Bluray-1080p    |WEBDL-480p      |
-|WEBDL-1080p     |WEBDL-1080p               |WEBDL-1080p     |WEBDL-1080p     |WEBRip-480p     |
-|WEBRip-1080p    |WEBRip-1080p              |WEBRip-1080p    |WEBRip-1080p    |DVD             |
-|HDTV-1080p      |HDTV-1080p                |HDTV-1080p      |HDTV-1080p      |SDTV            |
+
+#### Quality Groups
+Below you can find which qualities are part of which groups.
+
+|**4K (2160p)**|**4K (2160p - No Remux)**|**HD (1080p)**|**HD (1080p - No Remux)** | **SD (720p to 480p)**|
+|--------------|-------------------------|--------------|--------------------------|----------------------|
+|BR-DISK       |                         |              |                          |                      |
+|Remux-2160p   |                         |              |                          |                      |
+|Bluray-2160p  |Bluray-2160p             |              |                          |                      |
+|WEBDL-2160p   |WEBDL-2160p              |              |                          |                      |
+|WEBRip-2160p  |WEBRip-2160p             |              |                          |                      |
+|HDTV-2160p    |HDTV-2160p               |              |                          |                      |
+|              |                         |Remux-1080p   |                          |                      |
+|              |                         |Bluray-1080p  |Bluray-1080p              |                      |
+|              |                         |WEBDL-1080p   |WEBDL-1080p               |                      |
+|              |                         |WEBRip-1080p  |WEBRip-1080p              |                      |
+|              |                         |HDTV-1080p    |HDTV-1080p                |                      |
+|              |                         |              |                          |Bluray-720p           |
+|              |                         |              |                          |WEBDL-720p            |
+|              |                         |              |                          |WEBRip-720p           |
+|              |                         |              |                          |HDTV-720p             |
+|              |                         |              |                          |Bluray-576p           |
+|              |                         |              |                          |Bluray-480p           |
+|              |                         |              |                          |WEBDL-480p            |
+|              |                         |              |                          |WEBRip-480p           |
+|              |                         |              |                          |DVD                   |
+|              |                         |              |                          |SDTV                  |
 
 #### Warning ⚠️
 
@@ -53,23 +72,24 @@ You may need to manually add `Bluray 1080p Remuxes` and `Bluray 2160p Remuxes` t
 
  **RADARR**                 | **Score** | | **SONARR**                | **Score** |
  |----------------------------|------------|-|----------------------------|------------|
- | RADARR - FR Remux Tier 01  | 3000       | | SONARR - FR Remux Tier 01  | 2600       |
- | RADARR - FR Remux Tier 02  | 2900       | | SONARR - FR HD Bluray Tier 01 | 2500    |
- | RADARR - FR UHD Bluray Tier 01 | 2800   | | SONARR - FR Anime Tier 01  | 2400       |
- | RADARR - FR UHD Bluray Tier 02 | 2700   | | SONARR - FR WEB Tier 01    | 2400       |
- | RADARR - FR HD Bluray Tier 01 | 2600    | | SONARR - FR Anime Tier 02  | 2300       |
- | RADARR - FR HD Bluray Tier 02 | 2500    | | SONARR - FR WEB Tier 02    | 2300       |
- | RADARR - FR WEB Tier 01    | 2400       | | SONARR - FR Anime Tier 03  | 2200       |
- | RADARR - FR WEB Tier 02    | 2300       | | SONARR - FR WEB Tier 03    | 2200       |
- | FR HD Light Tier           | 2200       | | FR HD Light Tier           | 2100       |
+ | RADARR - FR Remux Tier 01  | 3000       | | SONARR - FR Remux Tier 01  | 2700       |
+ | RADARR - FR Remux Tier 02  | 2900       | | SONARR - FR HD Bluray Tier 01 | 2600    |
+ | RADARR - FR UHD Bluray Tier 01 | 2800   | | SONARR - FR Anime Tier 01  | 2500       |
+ | RADARR - FR UHD Bluray Tier 02 | 2700   | | SONARR - FR WEB Tier 01    | 2500       |
+ | RADARR - FR HD Bluray Tier 01 | 2600    | | SONARR - FR Anime Tier 02  | 2400       |
+ | RADARR - FR HD Bluray Tier 02 | 2500    | | SONARR - FR WEB Tier 02    | 2400       |
+ | RADARR - FR WEB Tier 01    | 2400       | | SONARR - FR Anime Tier 03  | 2300       |
+ | RADARR - FR WEB Tier 02    | 2300       | | SONARR - FR WEB Tier 03    | 2300       |
+ | FR HD Light Tier           | 2200       | | FR HD Light Tier           | 2200       |
  | RADARR - FR Scene Teams    | 2100       | | SONARR - FR Anime FanSub   | 2000       |
  | MULTi Audio                | 950        | | SONARR - FR Scene Groups   | 2000       |
- | VOSTFR                     | 50         | | MULTi Audio                | 550        |
+ | VOSTFR                     | 50         | | MULTi Audio                | 950        |
  | VOSTEN                     | 5          | | VOSTFR                     | 50         |
  | VF2-VFI                    | 0          | | VOSTEN                     | 5          |
  | VFF (No VFQ)               | 0          | | VF2-VFI                    | 0          |
  | Bad x265 (HD)              | -40        | | VFF (No VFQ)               | 0          |
  | SDR                        | -2000      | | Bad x265 (HD)              | -40        |
  | FR LQ                      | -10000     | | SDR                        | -2000      |
+ | 3D                         | -10000     | | 3D                         | -10000     |
  | VFQ (No VFF)               | -10000     | | FR LQ                      | -10000     |
  |                            |            | | VFQ (No VFF)               | -10000     |
