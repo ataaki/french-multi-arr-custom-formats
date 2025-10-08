@@ -88,9 +88,9 @@ You may need to manually add `Bluray 1080p Remuxes` and `Bluray 2160p Remuxes` t
  | RADARR - FR HD Bluray Tier 02 | 2500    | | SONARR - FR WEB Tier 02    | 2400       |
  | RADARR - FR WEB Tier 01    | 2400       | | SONARR - FR Anime Tier 03  | 2300       |
  | RADARR - FR WEB Tier 02    | 2300       | | SONARR - FR WEB Tier 03    | 2300       |
- | FR HD Light Tier           | 2200       | | FR HD Light Tier           | 2200       |
- | RADARR - FR Scene Teams    | 2100       | | SONARR - FR Anime FanSub   | 2000       |
- | MULTi Audio                | 950        | | SONARR - FR Scene Groups   | 2000       |
+ | RADARR - FR Scene Teams    | 2200       | | SONARR - FR Scene Groups   | 2200       |
+ | FR HD Light Tier           | 2100       | | SONARR - FR Anime FanSub   | 2200       |
+ | MULTi Audio                | 950        | | FR HD Light Tier           | 2100       |
  | VOSTFR                     | 50         | | MULTi Audio                | 950        |
  | VOSTEN                     | 5          | | VOSTFR                     | 50         |
  | VF2-VFI                    | 0          | | VOSTEN                     | 5          |
